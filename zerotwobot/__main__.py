@@ -76,12 +76,12 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-ZEROTWO_IMG = "https://telegra.ph/file/5b9bc54b0ae753bb1ec18.jpg"
+ZEROTWO_IMG = "https://ar-hosting.pages.dev/1746290141044.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @kishoreee \
+ You can support the project by contacting @eric_asarii \
  Supporting isn't always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @blackbulls_support."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Grup_Ovanime_Indo."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -149,7 +149,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     HELP_STRINGS = """
     Hey there!.
-    My Name is {}, from Darling in The FranXX. Take me as your group's darling to have fun with me. \
+    My Name is {}, from Azure Lane. Take me as your group's darling to have fun with me. \
     I can help you with the following commands.
 
     *Main* commands available:
@@ -177,17 +177,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [
             InlineKeyboardButton(
                 "Support Group",
-                "https://t.me/blackbulls_support",
+                "https://t.me/Grup_Ovanime_Indo",
             ),
             InlineKeyboardButton(
                 "Announcements",
-                "https://t.me/blackbull_bots"
+                "https://t.me/elric_asarii"
             ),
         ],
         [
             InlineKeyboardButton(
                 text="Source Code",
-                url="https://github.com/Black-Bulls-Bots/zerotwobot"
+                url="https://t.me/eric_asarii"
             )
         ]
     ]
@@ -232,17 +232,17 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 \nI'm {context.bot.first_name}, made specifically to manage your group and have more fun than ever. \
                 \nType /help to get available commands. \
 
-                \nVersion info: \
-                \nI'm running on v{BOT_VERSION} \
-                \nPython: {PYTHON_VERSION} \
-                \nPTB: {PTB_VERSION} \
-                \nBOT_API: {BOT_API_VERSION}"""),
+                \nCharacter Information: \
+                \nI am an Enterprise Robot from Azure Lane Version {BOT_VERSION} \
+                \nI am an official member of Ovanime Indonesia \
+                \nI'm Eric Asarii's assistant and admin at Ovanime Indonesia \
+                \nI am a management robot for all groups: """),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
     else:
         await update.effective_message.reply_text(
-            "I'm running successfully on v{}\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "successful enterprise is run with a robot version {}\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 BOT_VERSION,uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -251,11 +251,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         InlineKeyboardButton(
                             text="Support",
-                            url="https://t.me/blackbulls_support",
+                            url="https://t.me/Grup_Ovanime_Indo",
                         ),
                         InlineKeyboardButton(
                             text=str("Announcement's"),
-                            url="https://t.me/blackbull_bots",
+                            url="https://t.me/elric_asarii",
                         ),
                     ],
                 ],
@@ -303,7 +303,7 @@ async def error_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def help_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     HELP_STRINGS = """
     Hey there!.
-    My Name is {}, from Darling in The FranXX. Take me as your group's darling to have fun with me. \
+    My Name is {}, from Azure Lane. Take me as your group's darling to have fun with me. \
     I can help you with the following commands.
 
     *Main* commands available:
@@ -387,7 +387,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     HELP_STRINGS = """
     Hey there!.
-    My Name is {}, from Darling in The FranXX. Take me as your group's darling to have fun with me. \
+    My Name is {}, from Azure Lane. Take me as your group's darling to have fun with me. \
     I can help you with the following commands.
 
     *Main* commands available:
