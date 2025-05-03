@@ -14,26 +14,26 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123  # integer value, dont use ""
+    API_ID = 23746013  # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 123  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = ""
-    SUPPORT_CHAT = "Logger_Id5311"  # Your own group for support, do not add the @
+    OWNER_ID = 7742582171  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "eric_asarii"
+    SUPPORT_CHAT = "Grup_Ovanime_Indo"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1002270974357
+        -1002570895946
     )  # Prints any new group the bot is added to, prints just the name and ID.
     
-    LOGGER_LEVEL = -1002270974357
+    LOGGER_LEVEL = 20  # INFO
     
     EVENT_LOGS = (
-        -1002270974357
+        -1002665236465
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
-    NO_LOAD = ["rss", "cleaner", "connection", "math"]
+    NO_LOAD = ["rss", "cleaner", "connection", "math", "disasters", "stickers", "request", "reverse"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
@@ -54,9 +54,9 @@ class Config(object):
     )
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    TIME_API_KEY = "H2ZJYO970S0M"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = ""  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
