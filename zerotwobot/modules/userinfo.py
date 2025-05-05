@@ -215,16 +215,16 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
         disaster_level_present = False
 
         if chat_obj.id == OWNER_ID:
-            head += "\n\nThe Disaster level of this person is 'God'."
+            head += "\n\nThe Disaster level of this person is 'Hell'."
             disaster_level_present = True
         elif chat_obj.id in DEV_USERS:
-            head += "\n\nThis user is member of 'Black Bulls'."
+            head += "\n\nThis user is member of 'Ovanime Indonesia'."
             disaster_level_present = True
         elif chat_obj.id in DRAGONS:
             head += "\n\nThe Disaster level of this person is 'Dragon'."
             disaster_level_present = True
         if disaster_level_present:
-            head += ' [<a href="https://t.me/blackbull_bots/49">?</a>]'.format(
+            head += ' [<a href="https://t.me/Grup_Ovanime_Indo/49">?</a>]'.format(
                 bot.username,
             )
 
