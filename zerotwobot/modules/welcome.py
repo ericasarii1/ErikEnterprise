@@ -582,7 +582,7 @@ async def left_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 await update.effective_message.reply_text(
-                    "Oi! Genos! He left..", reply_to_message_id=reply,
+                    "Goodbye my creator, I will always love you", reply_to_message_id=reply,
                 )
                 return
 
