@@ -236,7 +236,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 \nI am an Enterprise Robot from Azure Lane Version {BOT_VERSION} \
                 \nI am an official member of Ovanime Indonesia \
                 \nI'm Eric Asarii's assistant and admin at Ovanime Indonesia \
-                \nI am a management robot for all groups: """),
+                \nI am a management robot for all groups """),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
