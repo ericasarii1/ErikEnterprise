@@ -589,7 +589,7 @@ async def left_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 await update.effective_message.reply_text(
-                    "See you again my developer at the Indonesian Ovanime Association!",
+                    "See you again at the Ovanime Indonesia Association!",
                     reply_to_message_id=reply,
                 )
                 return
